@@ -1,0 +1,52 @@
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 136px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-link {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.header-connect-btn {
+    width: 141px;
+    height: 40px;
+    background-color: black;
+    border-color: #ffeea4;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+
+    box-shadow:
+       inset 0 -3em 3em rgb(0, 0, 0),
+             0em 0em 1.5em #ffeea4;
+    transition: box-shadow 0.2s;
+}
+
+.header-connect-btn:hover {
+    cursor: pointer;
+
+    box-shadow:
+       inset 0 -3em 3em rgb(184, 171, 56),
+             0em 0em 2.5em #f7da5a;
+}
+
+.swap-connect-wallet-image {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .header-section {
+        height: 80px;
+    }
+    .header-section-none {
+        display: none;
+    }
+}
